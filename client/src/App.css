@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topnavbar{
+    font-family: 'Righteous', cursive;
+    color: 14213D !important;
+    font-weight: 900;
+    font-size: 30px ;
+}
+.kNlFRo {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+    transform-origin: left top;
+    top: 650px;
+    height: 400px;
+    clip-path: url(#wave4);
+    background: linear-gradient(rgba(242, 246, 255, 0.5) 0%, rgb(242, 246, 255) 40%);
+}
+.font{
+    font-family: 'Righteous', cursive;
+}
+.title{
+    font-family: 'Righteous', cursive;
+    color: 14213D !important;
+    font-weight: 900;
+    font-size: 30px !important;
+}
+.login{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.LoginPageHeading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.SignBtn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+margin: 20px 0px 0px 289px; 
+}
+.Slider{
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+.img{
+    height: 20em;
+    width: 30em;
+}
+.card-body{
+    font-family: 'Roboto Slab', serif;
+}
+.card-img{
+    height: 150px;
+}
+.productdetails{
+    font-family: 'Righteous', cursive;
+}
+.productdesc{
+   font-weight: lighter;
+   font-size: 15px;
+    color: #ffff;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 22.4em;
+    background-color: #2c2c2e;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+      font-family: 'Righteous';
+    display: block;
+    color: #ffff;
+    padding: 16px;
+    margin-left: 2em;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #2c2c2e;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  .Boxinfo{
+    margin: 10px;
+    width: 15em;  
+  }
+
+.Boxinfo{
+  margin: 10px;
+  width: 20em;  
+  line-height: 40px;
+}
+.Box__title{
+  background-color: #2e2e2e;
+  color:#cfcfcf  ;
+}
+.Box__cases{
+  color: red;
+}
+.Box{
+  background-color: #2e2e2e;
+  color:#cfcfcf  ;
+}

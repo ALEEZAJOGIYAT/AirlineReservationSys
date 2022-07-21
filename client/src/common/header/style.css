@@ -1,0 +1,39 @@
+.icons{
+    margin-right: 10px;
+    font-size: 20px ;
+}
+
+.authSignBtn{
+    color: #ffff;
+    text-decoration: none;
+    margin: 0 10px 0 750px ;
+    font-size: 20px;
+    font-weight: 200;
+}
+.authLoginBtn{
+    color: rgb(255, 232, 232);
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+.bookBtn{
+    color: #ffff;
+    text-decoration: none;
+    margin: 0 12px ;
+
+}
+.authLogoutBtn{
+    color: rgb(255, 232, 232);
+    text-decoration: none;
+    margin: 0 12px 0 500px;
+
+
+}
+.topnavbar{
+    font-family: 'Righteous', cursive;
+    color: 14213D !important;
+    font-weight: 900;
+    font-size: 30px !important;
+}
